@@ -1,4 +1,4 @@
-### THAT THIS FILE IS CURRENTLY INCOMPLETE
+### THIS FILE IS CURRENTLY INCOMPLETE
 
 ### Example scrap of Ark Investment Search Results in order to identify the filings from the firm
 ### Example URL:
@@ -60,9 +60,7 @@ df1 = df[0].str.split(',', expand=True)
 # Removing square brackets in first column
 df1[0] = df1[0].str.strip('[')
 
-# Removing first 10 rows
-###df2 = df1.last.
 
-## Need to work out how to remove last rows go back to https://www.datacamp.com/community/tutorials/web-scraping-using-python
+
 
 print(df1)
