@@ -1,6 +1,8 @@
-### Test scrap of SEC Ark Investment Page
+### THAT THIS FILE IS CURRENTLY INCOMPLETE
+
+### Example scrap of Ark Investment Search Results in order to identify the filings from the firm
 ### Example URL:
-### https://www.sec.gov/Archives/edgar/data/1697748/000114420418057760/xslForm13F_X01/infotable.xml
+### https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001697748&type=13F-HR&dateb=&owner=exclude&count=100
 
 # Importing packages
 import pandas as pd
