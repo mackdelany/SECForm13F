@@ -61,6 +61,4 @@ df1 = df[0].str.split(',', expand=True)
 df1[0] = df1[0].str.strip('[')
 
 
-
-
 print(df1)
