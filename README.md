@@ -15,7 +15,7 @@ In order to 13F Filings for a company as a list of Dataframes:
 
 ``` python
 import SECForm13F
-testFirm = SECForm13F.investmentFirm("ARK Investment Management LLC", 1697748)
+testFirm = SECForm13F.investmentFirm('ARK Investment Management LLC', 1697748)
 listOfFilings = testFirm.getlistOf13Ffilings()
 ```
 
@@ -23,7 +23,7 @@ In order to export all 13 Filings for a company as .csv files:
 
 ``` python
 import SECForm13F
-testFirm = SECForm13F.investmentFirm("ARK Investment Management LLC", 1697748)
+testFirm = SECForm13F.investmentFirm('ARK Investment Management LLC', 1697748)
 testFirm.export13FfilingsAsCSVs()
 ```
 
