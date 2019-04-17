@@ -9,8 +9,6 @@ import re
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-# Set URL, will use Ark link as example
-
 class investmentFirm():
 
     def __init__(self, companyName, centralIndexKey):
