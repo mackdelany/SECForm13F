@@ -34,4 +34,4 @@ testFirm.export13FfilingsAsCSVs()
 * Documents named by the dates they were filed 
 
 
-I borrowed/learnt from [@joeyism] and would recommend his [py-edgar](https://github.com/joeyism/py-edgar/commits?author=joeyism) repositary for exporting files as text from the SEC Database.
+I borrowed/learnt from [@joeyism](https://github.com/joeyism) and would recommend his [py-edgar](https://github.com/joeyism/py-edgar/commits?author=joeyism) repositary for exporting files as text from the SEC Database.
