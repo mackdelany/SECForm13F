@@ -11,7 +11,7 @@ The EDGAR Database can be explored [here](https://www.sec.gov/edgar/searchedgar/
 
 To pull 13F Filings for a given company, you need the company index key, this can be found [here](https://www.sec.gov/edgar/searchedgar/companysearch.html). You should also have the company name, however this doesn't need to strictly be the official legal trading name.
 
-In order to 13F Filings for a company as a list of Dataframes:
+In order to export 13F Filings for a company as a list of Dataframes:
 
 ``` python
 import SECForm13F
