@@ -19,7 +19,7 @@ testFirm = SECForm13F.investmentFirm('ARK Investment Management LLC', 1697748)
 listOfFilings = testFirm.getAll13Ffilings()
 ```
 
-In order to export all 13 Filings for a company as .csv files:
+In order to export all 13F Filings for a company as .csv files:
 
 ``` python
 import SECForm13F
