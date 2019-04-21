@@ -18,8 +18,8 @@ class investmentFirm():
 
         listOfFilingDataframes = []
 
-        accNumnbers = getAccNumbersFromCIK(self)
-        filingURLs = get13FfilingURLs(self, accNumnbers)
+        accNumbers = getAccNumbersFromCIK(self)
+        filingURLs = get13FfilingURLs(self, accNumbers)
 
         for filing in filingURLs:
             filingDataframe = getDataframeOfFiling(filing)
