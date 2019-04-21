@@ -2,7 +2,6 @@ from os.path import dirname, basename, isfile
 import glob
 from .SECForm13F import *
 
-
 __version__ = "1.0"
 
 modules = glob.glob(dirname(__file__)+"/*.py")
