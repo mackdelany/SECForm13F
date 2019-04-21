@@ -29,7 +29,6 @@ testFirm.export13FfilingsAsCSVs()
 
 
 # Updates in the pipeline
-* Error handling
 * Ability to specify number of filings
 * Documents named by the dates they were filed 
 

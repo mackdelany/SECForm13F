@@ -1,22 +1,3 @@
-### Example scrap of a 13F Ark Investment Page
-### Example URL:
-### https://www.sec.gov/Archives/edgar/data/1697748/000114420418057760/xslForm13F_X01/infotable.xml
-
-## Test
-## https://www.sec.gov/Archives/edgar/data/1697748/000114420418027944/xslForm13F_X01/infotable.xml
-## ARK CIK: 1697748
-## ARK Acc-no for 2018-05-14: 000114420418027944
-
-## import SECForm13F
-## testFirm = SECForm13F.investmentFirm("ARK Investment Management LLC", 1697748)
-## listOfFilings = testFirm.getlistOf13Ffilings()
-
-## or to return all 13F Forms as .csv's
-## testFirm.export13FfilingsAsCSVs()
-
-
-## https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001697748&action=getcompany&type=13F
-
 import pandas as pd
 import numpy as np
 import re
