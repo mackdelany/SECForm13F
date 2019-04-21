@@ -48,7 +48,7 @@ class investmentFirm():
 
 
     def export13FfilingsAsCSVs(self):
-        dictionaryOfFilings = getDictionaryOf13Ffilings()
+        dictionaryOfFilings = getAll13Ffilings()
         placeholderNumber = 1
 
         for filing in listOfFilingDataframes:
